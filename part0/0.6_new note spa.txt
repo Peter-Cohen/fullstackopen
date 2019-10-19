@@ -1,0 +1,15 @@
+note over browser:
+user clicks save button
+end note
+
+note over browser:
+browser redraws updated notes array
+end note
+
+browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+
+note over server:
+server updates notes array
+end note
+
+server-->browser: HTTP: 201 Created
