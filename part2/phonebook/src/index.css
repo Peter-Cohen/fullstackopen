@@ -1,0 +1,27 @@
+.notification {
+  display: flex;
+  align-items: center;
+  min-height: 2em;
+  background: lightgrey;
+  font-size: 1.25em;
+  border-style: solid;
+  border-radius: .25em;
+  padding: .25em;
+  margin-bottom: 10px;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.info {
+  color: green;
+}
+
+.error {
+  color: red;
+}
